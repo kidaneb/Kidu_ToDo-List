@@ -3,10 +3,11 @@
     padding:0;
 }
 .header-container{
-    background-color: antiquewhite;
+    background-color:#333333;
     height:300px;
 }
 .todo-title{
+    color: yellow;
     text-align: center;
     height: 100px;
     font-size: 5em;
@@ -37,15 +38,15 @@
     cursor: pointer;
 }
 .btn-add{
-    background-color: aqua;
+    background-color: #0DFF76;
     border-color: aqua;
 }
-.btn-add:hover{
+.btn:hover{
     background-color: rgba(0, 255, 255, 0.641);
     border-color: rgba(0, 255, 255, 0.641);
 }
 .section-container{
-    background-color: cyan;
+    background-color:#4A4443;
     position: fixed;
     top:300px;
     bottom: 0;
@@ -56,4 +57,12 @@
 }
 ul{
     list-style-type: none;
+}
+.btn-progress{
+    background-color:#0DFF76;
+    border-color: aqua;
+}
+.btn-delete{
+    background-color: #0DFF76;
+    border-color: aqua;
 }
